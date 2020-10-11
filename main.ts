@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 4; index++) {
         sprite.move(4)
         sprite.turn(Direction.Right, 90)
-        basic.pause(2000)
+        basic.pause(100)
     }
 })
 let sprite: game.LedSprite = null
